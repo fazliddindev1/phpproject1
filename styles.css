@@ -1,0 +1,66 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+}
+
+/* Centering container */
+.container {
+    max-width: 400px;
+    width: 90%; /* Responsive design for smaller screens */
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center align content */
+}
+
+/* Headings styling */
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input fields and buttons */
+input, button, a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Button styles */
+button, a {
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover, a:hover {
+    background: #0056b3;
+}
+
+/* Link back to login */
+.login-section h3 {
+    margin-top: 20px;
+    color: #555;
+}
+
